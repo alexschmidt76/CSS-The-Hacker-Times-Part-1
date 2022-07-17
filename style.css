@@ -2,6 +2,7 @@
 
 body {
     background-color: lightgray;
+    font-family: Source Sans Pro;
 }
 
 .newspaper-container {
@@ -10,7 +11,7 @@ body {
     margin: auto;
     box-shadow: #ddd;
     padding: 2%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -33,7 +34,23 @@ nav li,
 a:link {
     display: inline-block;
     list-style: none;
-    padding-right: 0 2px;
+    padding: 0 2px;
     text-decoration: none;
     text-align: center;
+    color: #777;
+ }
+
+ h5 {
+    color: #dd3232;
+ }
+
+ main img,
+ main p {
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+ }
+
+ .more-articles section {
+    display: inline-block;
  }

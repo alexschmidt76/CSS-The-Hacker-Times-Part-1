@@ -49,10 +49,15 @@ main {
 }
 
 main img,
-main p {
-    text-align: justify;
+.more-articles section img {
     width: 100%;
+}
+
+main p,
+.more-articles section p {
     margin: auto;
+    text-align: justify;
+    padding: 0 2%;
 }
 
 .more-articles {
@@ -63,12 +68,4 @@ main p {
     display: inline-block;
     width: 40%;
     margin: 0 4%;
-    margin-bottom: 1.5em;
- }
-
-.more-articles section img,
-.more-articles section p {
-    text-align: justify;
-    width: 100%;
-    margin: auto;
  }

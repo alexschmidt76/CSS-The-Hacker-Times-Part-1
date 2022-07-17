@@ -38,19 +38,37 @@ a:link {
     text-decoration: none;
     text-align: center;
     color: #777;
- }
+}
 
- h5 {
+h5 {
     color: #dd3232;
- }
+}
 
- main img,
- main p {
+main {
+    margin-bottom: 1.5em;;
+}
+
+main img,
+main p {
     text-align: justify;
     width: 100%;
     margin: auto;
+}
+
+.more-articles {
+    border-top: 1px solid black;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 40%;
+    margin: 0 4%;
+    margin-bottom: 1.5em;
  }
 
- .more-articles section {
-    display: inline-block;
+.more-articles section img,
+.more-articles section p {
+    text-align: justify;
+    width: 100%;
+    margin: auto;
  }

@@ -47,23 +47,27 @@ h5 {
     color: #dd3232;
 }
 
-main {
+main,
+.more-articles {
     margin-bottom: 1.5em;;
 }
 
 main img,
-.more-articles section img {
+.more-articles section img,
+.bonus-articles section img {
     width: 100%;
 }
 
 main p,
-.more-articles section p {
+.more-articles section p,
+.bonus-articles section p {
     margin: auto;
     text-align: justify;
     padding: 0 2%;
 }
 
-.more-articles {
+.more-articles,
+.bonus-articles {
     border-top: 1px solid black;
 }
 
@@ -71,4 +75,10 @@ main p,
     display: inline-block;
     width: 40%;
     margin: 0 4%;
+ }
+
+ .bonus-articles section {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
  }
